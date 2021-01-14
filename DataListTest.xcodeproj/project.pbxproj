@@ -11,6 +11,10 @@
 		442958FD25964FCA0036C264 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442958FC25964FCA0036C264 /* ContentView.swift */; };
 		442958FF25964FCE0036C264 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 442958FE25964FCE0036C264 /* Assets.xcassets */; };
 		4429590225964FCE0036C264 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4429590125964FCE0036C264 /* Preview Assets.xcassets */; };
+		4429590B25964FE80036C264 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4429590A25964FE80036C264 /* Model.swift */; };
+		4429590E25964FF70036C264 /* ListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4429590D25964FF70036C264 /* ListData.swift */; };
+		4429591C259681940036C264 /* ListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4429591B259681940036C264 /* ListRow.swift */; };
+		44F867F62597728000529132 /* TaskDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F867F52597728000529132 /* TaskDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		442958FE25964FCE0036C264 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4429590125964FCE0036C264 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4429590325964FCE0036C264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4429590A25964FE80036C264 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		4429590D25964FF70036C264 /* ListData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListData.swift; sourceTree = "<group>"; };
+		4429591B259681940036C264 /* ListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRow.swift; sourceTree = "<group>"; };
+		44F867F52597728000529132 /* TaskDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +61,9 @@
 			isa = PBXGroup;
 			children = (
 				442958FA25964FCA0036C264 /* DataListTestApp.swift */,
-				442958FC25964FCA0036C264 /* ContentView.swift */,
+				442959122596500A0036C264 /* View */,
+				44295911259650020036C264 /* Model */,
+				4429591025964FFB0036C264 /* Data */,
 				442958FE25964FCE0036C264 /* Assets.xcassets */,
 				4429590325964FCE0036C264 /* Info.plist */,
 				4429590025964FCE0036C264 /* Preview Content */,
@@ -67,6 +77,32 @@
 				4429590125964FCE0036C264 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4429591025964FFB0036C264 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				4429590D25964FF70036C264 /* ListData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		44295911259650020036C264 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4429590A25964FE80036C264 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		442959122596500A0036C264 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				442958FC25964FCA0036C264 /* ContentView.swift */,
+				4429591B259681940036C264 /* ListRow.swift */,
+				44F867F52597728000529132 /* TaskDetailView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +174,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4429590B25964FE80036C264 /* Model.swift in Sources */,
 				442958FD25964FCA0036C264 /* ContentView.swift in Sources */,
+				44F867F62597728000529132 /* TaskDetailView.swift in Sources */,
 				442958FB25964FCA0036C264 /* DataListTestApp.swift in Sources */,
+				4429590E25964FF70036C264 /* ListData.swift in Sources */,
+				4429591C259681940036C264 /* ListRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

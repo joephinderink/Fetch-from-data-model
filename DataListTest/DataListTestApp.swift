@@ -7,11 +7,13 @@
 
 import SwiftUI
 
+// Mention data type in preview, and mention data model name and number
+
 @main
 struct DataListTestApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(list: listData)
         }
     }
 }
